@@ -1,0 +1,1 @@
+This is a Morse Code translator that I made using andriod symulator that can translate text into Morse code and Vice versa. There are also quizes of diferent levels to take to test how much you have learned.
