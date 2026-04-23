@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Level"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/level1Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Level 1: Guess the Letter"
+        android:textSize="18sp"
+        android:padding="20dp"
+        android:layout_marginBottom="15dp"
+        android:backgroundTint="#4CAF50"/>
+
+    <Button
+        android:id="@+id/level2Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Level 2: Guess the Word"
+        android:textSize="18sp"
+        android:padding="20dp"
+        android:layout_marginBottom="15dp"
+        android:backgroundTint="#FF9800"/>
+
+    <Button
+        android:id="@+id/level3Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Level 3: Read the Sentence"
+        android:textSize="18sp"
+        android:padding="20dp"
+        android:layout_marginBottom="15dp"
+        android:backgroundTint="#F44336"/>
+
+    <Button
+        android:id="@+id/level4Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Level 4: Fill in the Blank (Morse)"
+        android:textSize="18sp"
+        android:padding="20dp"
+        android:backgroundTint="#9C27B0"/>
+
+</LinearLayout>
